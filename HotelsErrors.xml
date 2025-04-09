@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel> <!-- Error 1: Wrong root element -->
+<Hotel> 
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -12,7 +12,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel> <!-- Error 2: Missing required attribute NearestAirport -->
+  <Hotel>
     <Name>Marriott</Name>
     <Phone>602-555-1234</Phone>
     <Address>
@@ -25,7 +25,6 @@
   </Hotel>
   <Hotel Rating="3.5">
     <Name>Hyatt</Name>
-    <!-- Error 3: Missing Phone element -->
     <Address NearestAirport="Mesa Gateway">
       <Number>500</Number>
       <Street>Broadway Rd</Street>
@@ -42,11 +41,10 @@
       <Street>Van Buren St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <!-- Error 4: No closing tag for Address -->
   </Hotel>
   <Hotel Rating="3.7">
     <Name>Holiday Inn</Name>
-    <Name>Inn2</Name> <!-- Error 5: Duplicate Name -->
+    <Name>Inn2</Name>
     <Phone>623-123-4567</Phone>
     <Address NearestAirport="Mesa Gateway">
       <Number>101</Number>
