@@ -1,38 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels>
-  <Hotel Rating="4.2">
+<Hotels xmlns="https://siddsan7.github.io/cse445-a4"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://siddsan7.github.io/cse445-a4 https://siddsan7.github.io/cse445-a4/Hotels.xsd">
+  <Hotel Rating="5.0">
     <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
+    <Phone>815-470-1846</Phone>
+    <Phone>313-392-9772</Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>11</Number>
-      <Street>E 7th St</Street>
+      <Number>7627</Number>
+      <Street>Main St</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
+      <Zip>53731</Zip>
     </Address>
   </Hotel>
   <Hotel>
     <Name>Marriott</Name>
-    <Phone>602-555-1234</Phone>
-    <Address NearestAirport="Phoenix Airport">
-      <Number>100</Number>
-      <Street>Main St</Street>
+    <Phone>286-706-1531</Phone>
+    <Phone>835-858-4970</Phone>
+    <Address NearestAirport="LAX">
+      <Number>7534</Number>
+      <Street>Broadway</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85001</Zip>
+      <Zip>51337</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="3.5">
+  <Hotel Rating="3.7">
     <Name>Hyatt</Name>
-    <Phone>623-111-2233</Phone>
-    <Phone>800-888-9999</Phone>
-    <Address NearestAirport="Mesa Gateway">
-      <Number>500</Number>
-      <Street>Broadway Rd</Street>
-      <City>Mesa</City>
-      <State>AZ</State>
-      <Zip>85206</Zip>
+    <Phone>938-791-6668</Phone>
+    <Phone>699-452-7406</Phone>
+    <Address NearestAirport="JFK">
+      <Number>5800</Number>
+      <Street>Market St</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <Zip>41750</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Hilton</Name>
+    <Phone>536-821-5642</Phone>
+    <Phone>755-436-3891</Phone>
+    <Address NearestAirport="O'Hare">
+      <Number>7536</Number>
+      <Street>Sunset Blvd</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>29940</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.9">
+    <Name>Holiday Inn</Name>
+    <Phone>991-986-6646</Phone>
+    <Phone>225-347-5818</Phone>
+    <Address NearestAirport="Hartsfield-Jackson">
+      <Number>6808</Number>
+      <Street>Ocean Ave</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>67025</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Sheraton</Name>
+    <Phone>603-250-4132</Phone>
+    <Phone>721-455-2452</Phone>
+    <Address NearestAirport="MIA">
+      <Number>2277</Number>
+      <Street>Peachtree St</Street>
+      <City>Atlanta</City>
+      <State>GA</State>
+      <Zip>29099</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.9">
+    <Name>Ritz-Carlton</Name>
+    <Phone>809-337-2664</Phone>
+    <Phone>897-736-4056</Phone>
+    <Address NearestAirport="Sea-Tac">
+      <Number>8048</Number>
+      <Street>Michigan Ave</Street>
+      <City>Miami</City>
+      <State>FL</State>
+      <Zip>63573</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Best Western</Name>
+    <Phone>857-180-3999</Phone>
+    <Phone>443-810-2604</Phone>
+    <Address NearestAirport="DEN">
+      <Number>1381</Number>
+      <Street>Beale St</Street>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>24589</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.3">
+    <Name>Comfort Suites</Name>
+    <Phone>690-785-4569</Phone>
+    <Phone>446-514-2803</Phone>
+    <Address NearestAirport="PHX">
+      <Number>6861</Number>
+      <Street>Lombard St</Street>
+      <City>Denver</City>
+      <State>CO</State>
+      <Zip>31780</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>La Quinta</Name>
+    <Phone>225-819-6706</Phone>
+    <Phone>437-222-8329</Phone>
+    <Address NearestAirport="AUS">
+      <Number>1843</Number>
+      <Street>Fifth Ave</Street>
+      <City>Austin</City>
+      <State>TX</State>
+      <Zip>82416</Zip>
     </Address>
   </Hotel>
 </Hotels>
